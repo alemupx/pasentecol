@@ -1,0 +1,7 @@
+{
+  "name": "pasentecol",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
