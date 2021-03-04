@@ -14,7 +14,7 @@ export class FotosComponent implements OnInit {
       url:
         'https://firebasestorage.googleapis.com/v0/b/pasentecol.appspot.com/o/fotos%2FIMG_20190124_161049_943.jpg?alt=media&token=888ed18d-cfd2-4794-ace0-9b34d33e761c',
     },
-    
+
     {
       titulo: 'Lorem Ipsum',
       descripcion: 'Dolor Sit Amet',
