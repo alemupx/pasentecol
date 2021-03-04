@@ -1,0 +1,51 @@
+#background {
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/pasentecol.appspot.com/o/fotos%2FIMG_20191211_232133_714.jpg?alt=media&token=53614bad-01a3-4522-b975-a96e380d1e87);
+  // background-color: #98b8ea;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#orozco {
+  position: absolute;
+  z-index: 1;
+  width: 334px;
+  transform: translateY(-30px);
+}
+
+#nombre {
+  color: transparent;
+  -webkit-text-stroke: 2px #2f363d;
+  position: absolute;
+}
+
+.titulos {
+  font-size: 85px;
+}
+
+.texto {
+  font-size: 19px;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 1200px) {
+  #divisor {
+    display: flex;
+  }
+}
+
+@media (max-width: 1200px) {
+  #divisor {
+    display: none;
+  }
+}

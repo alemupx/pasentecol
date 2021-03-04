@@ -16,7 +16,7 @@
 @import "~@ionic/angular/css/normalize.css";
 @import "~@ionic/angular/css/structure.css";
 @import "~@ionic/angular/css/typography.css";
-@import '~@ionic/angular/css/display.css';
+@import "~@ionic/angular/css/display.css";
 
 /* Optional CSS utils that can be commented out */
 @import "~@ionic/angular/css/padding.css";
@@ -24,3 +24,44 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+.alinear_centro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.letras_blancas {
+  color: white;
+}
+
+.acumin {
+  font-family: acumin;
+}
+
+.bahnschrift {
+  font-family: bahnschrift;
+}
+
+.impact {
+  font-family: Impact;
+}
+
+.thundergood {
+  font-family: thundergood;
+}
+
+@font-face {
+  font-family: acumin;
+  src: url(assets/fonts/AcuminVariableConcept.otf) format("truetype");
+}
+
+@font-face {
+  font-family: bahnschrift;
+  src: url(assets/fonts/bahnschrift.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: thundergood;
+  src: url(assets/fonts/Thundergood.ttf) format("truetype");
+}
